@@ -94,12 +94,12 @@ const Videoannotator = () => {
             )}
             
             {editingIndex === i ? (
-              <button onClick={() => handleSaveEdit(i)}>💾 Salvar</button>
+              <button onClick={() => handleSaveEdit(i)}>💾 </button>
             ) : (
-              <button onClick={() => handleEditAnnotation(i)}>✏️ Editar</button>
+              <button onClick={() => handleEditAnnotation(i)}>✏️ </button>
             )}
             
-            <button onClick={() => handleDeleteAnnotation(i)}>🗑️ Apagar</button>
+            <button onClick={() => handleDeleteAnnotation(i)}>🗑️ </button>
           </div>
         ))}
       </div>

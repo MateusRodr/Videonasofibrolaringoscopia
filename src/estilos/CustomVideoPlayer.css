@@ -68,3 +68,34 @@ video {
   color: #333;
   font-weight: 500;
 }
+
+/* Dispositivos pequenos: celulares */
+@media (max-width: 576px) {
+  .custom-player-container {
+    padding: 0 1rem;
+  }
+
+  .controls button {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .time-display {
+    font-size: 0.9rem;
+  }
+}
+
+/* Dispositivos médios: tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Layout com colunas ou grid simples */
+}
+
+/* Dispositivos grandes: notebooks */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Ajustes de largura, tamanho de fonte */
+}
+
+/* Dispositivos extra grandes: desktops */
+@media (min-width: 993px) {
+  /* Layout mais espaçado, colunas lado a lado */
+}
